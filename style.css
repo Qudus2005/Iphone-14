@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.screen{
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 350px;
+    height: 600px;
+    background-image: radial-gradient(white, black);
+}
+.speaker{
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 50px;
+    height: 10px;
+    background-color: red;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+img{
+    color: red;
+}
+.camera{
+    border-radius: 10px;
+    width: 350px;
+    height: 600px;
+    background-color: red;
+}
+.back-camera{
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+}
+.camera1{
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    background-color: black;
+}
+.camera2{
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    background-color: black;
+}
+.camera3{
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    background-color: black;
+}
+.flash-light{
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin-top: 50%;
+    background-color: white;
+}
+.lens{
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin-left: 30%;
+    margin-top: 30%;
+    background-color: white;
+}
+.back-camera-grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+.apple-logo{
+    width: 100px;
+    height: 125px;
+    margin-left: 35%;
+    margin-top: 30%;
+    background-image: url(./Images/apple.svg);
+    background-size: cover;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+}
+footer{
+    background-color: coral;
+    height: 50%;
+    width: 100%;
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+h2 span{
+    color: gold;
+}
+p{
+    font-size: 20px;
+}
+.container2 h3{
+    font-size: 30px;
+    color: white;
+}
+.container2 li{
+    list-style-type: none;
+    
+}
+.container2 li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.container2 li a:hover{
+    text-decoration: underline;
+    color: gold;
+}
+.container3 h4{
+    font-size: 30px;
+color: white;
+}
+@media screen and (min-width:240px) and (max-width:1023px){
+    body{
+        background-color: black;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .screen{
+        border: 5px solid red;
+        border-radius: 10px;
+        width: 350px;
+        height: 600px;
+        background-image: radial-gradient(white, black);
+    }
+    .speaker{
+        border: 2px solid red;
+        border-radius: 5px;
+        width: 50px;
+        height: 10px;
+        background-color: red;
+        margin-left: 40%;
+        margin-top: 1%;
+    }
+    img{
+        color: red;
+    }
+    .camera{
+        border-radius: 10px;
+        width: 350px;
+        height: 600px;
+        background-color: red;
+    }
+    .back-camera{
+        border: 2px solid gray;
+        border-radius: 10px;
+        width: 150px;
+        height: 150px;
+        background-color: gray;
+    }
+    .camera1{
+        border: 2px solid black;
+        border-radius: 100%;
+        width: 65px;
+        height: 65px;
+        background-color: black;
+    }
+    .camera2{
+        border: 2px solid black;
+        border-radius: 100%;
+        width: 65px;
+        height: 65px;
+        background-color: black;
+    }
+    .camera3{
+        border: 2px solid black;
+        border-radius: 100%;
+        width: 65px;
+        height: 65px;
+        background-color: black;
+    }
+    .flash-light{
+        border: 2px solid white;
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+        margin-top: 50%;
+        background-color: white;
+    }
+    .lens{
+        border: 2px solid white;
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+        margin-left: 30%;
+        margin-top: 30%;
+        background-color: white;
+    }
+    .back-camera-grid{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
+    .apple-logo{
+        width: 100px;
+        height: 125px;
+        margin-left: 35%;
+        margin-top: 30%;
+        background-image: url(./Images/apple.svg);
+        background-size: cover;
+    }
+    .footer-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    footer{
+        background-color: coral;
+        height: 50%;
+        width: 100%;
+    }
+    h2{
+        color: white;
+        font-size: 30px;
+    }
+    h2 span{
+        color: gold;
+    }
+    p{
+        font-size: 20px;
+    }
+    .container2 h3{
+        font-size: 30px;
+        color: white;
+    }
+    .container2 li{
+        list-style-type: none;
+        
+    }
+    .container2 li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+    .container2 li a:hover{
+        text-decoration: underline;
+        color: gold;
+    }
+    .container3 h4{
+        font-size: 30px;
+    color: white;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1201px){
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-flex{
+        display: flex;
+        justify-content: space-around;
+    }
+}
